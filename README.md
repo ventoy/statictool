@@ -1,0 +1,2 @@
+# statictool
+static build tools
