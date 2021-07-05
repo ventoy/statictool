@@ -21,7 +21,7 @@ body:
     attributes:
       label: Details about the issue
       description: Tell me what problem you have.
-      value: ""
+      value: "issue"
     validations:
       required: true
 
