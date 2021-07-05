@@ -46,11 +46,21 @@ body:
         - Both
     validations:
       required: true
+  - type: dropdown
+    id: partstyle
+    attributes:
+      label: Partition Style
+      description: Which partition style did you select when you install Ventoy?
+      options:
+        - MBR
+        - GPT
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Details about the problem?
+      description: Tell me what happened. It's highly recommended to include some photo or video about the bug.
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
