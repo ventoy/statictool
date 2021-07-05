@@ -5,8 +5,7 @@ labels: [bug, triage]
 assignees:
   - octocat
 body:
- - type: dropdown
-    id: version
+ - type: dropdown    
     attributes:
       label: Ventoy Version
       description: What version of ventoy are you running?
@@ -16,7 +15,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: latest_release
+    id: latestrelease
     attributes:
       label: Latest Release
       description: Have you tried with the latest release of Ventoy?
