@@ -17,6 +17,16 @@ body:
       placeholder: 1.0.46
     validations:
       required: true
+  - type: checkboxes
+    id: latestrelease
+    attributes:
+      label: Latest Release
+      description: Have you tried with the latest release of Ventoy?
+      options:
+        - label: Yes. I have tried the latest release, but the bug still exist.
+          required: false
+        - label: No. I didn't try the latest release.
+          required: false
   - type: dropdown
     id: bios
     attributes:
