@@ -64,6 +64,16 @@ body:
       placeholder: 32GB
     validations:
       required: true
+  - type: dropdown
+    id: checksum
+    attributes:
+      label: Image file checksum (if applicable)
+      description: Have you checked the image file in Ventoy's menu as [https://www.ventoy.net/en/faq.html#faq_boot_checksum](https://www.ventoy.net/en/faq.html#faq_boot_checksum) ?
+      options:
+        - Yes.
+        - No.        
+    validations:
+      required: false
   - type: textarea
     id: what-happened
     attributes:
