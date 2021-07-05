@@ -9,6 +9,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    id: faq
+    attributes:
+      label: Official FAQ
+      description: Have you checked the official FAQ? [FAQ](https://www.ventoy.net/en/faq.html)
+      options:
+        - label: I have checked the official FAQ. 
+          required: true
   - type: input
     id: version
     attributes:
