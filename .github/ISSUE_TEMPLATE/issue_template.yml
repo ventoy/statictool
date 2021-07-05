@@ -56,10 +56,18 @@ body:
         - GPT
     validations:
       required: true
+  - type: input
+    id: capacity
+    attributes:
+      label: Disk Capacity
+      description: What is the capacity of the disk installed with Ventoy?
+      placeholder: 32GB
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
-      label: Details about the problem?
+      label: What happened?
       description: Tell me what happened. It's highly recommended to include some photo or video about the bug.
       placeholder: Tell us what you see!
       value: "A bug happened!"
