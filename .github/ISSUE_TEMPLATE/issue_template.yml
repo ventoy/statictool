@@ -30,7 +30,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!  
   - type: textarea
-    id: Details about the bug.
+    id: Details
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
