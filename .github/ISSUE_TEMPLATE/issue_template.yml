@@ -10,14 +10,16 @@ body:
   attributes:
     value: |
       Thanks for taking the time to fill out this bug report!
-- type: input
-  id: contact
-  attributes:
-    label: Contact Details
-    description: How can we get in touch with you if we need more info?
-    placeholder: ex. email@example.com
-  validations:
-    required: false
+ - type: dropdown
+    id: version
+    attributes:
+      label: Ventoy Version
+      description: What version of ventoy are you running?
+      options:
+        - Latest relese (1.0.46)
+        - Old release
+    validations:
+      required: true
 - type: textarea
   id: what-happened
   attributes:
