@@ -17,6 +17,17 @@ body:
       placeholder: 1.0.46
     validations:
       required: true
+  - type: dropdown
+    id: bios
+    attributes:
+      label: BIOS Mode
+      description: In which BIOS mode did you find the bug?
+      options:
+        - Legacy BIOS Mode
+        - UEFI Mode
+        - Both
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
