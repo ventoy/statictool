@@ -1,6 +1,6 @@
 name: Common Issue
 description: Report a common issue
-title: ""
+title: "[Issue]: "
 assignees:
   - octocat
 body:
